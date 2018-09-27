@@ -1,0 +1,264 @@
+body{ /*sets body background to gray */
+    background-color: #cccccc;
+}
+.nav{ /*sets header section in div "nav" width & margin */
+    width: 980px;
+    margin: 10px auto;  
+}
+header{ /* sets background color of header section to white */
+    background-color: #ffffff;
+}
+footer{
+    text-align: center;
+    background-color: #666666;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    padding: 20px;
+}
+
+
+.nav h1{ /* sets h1 tag with my name to green, floats it left, color white */
+    float:left;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    padding: 8px;    
+}
+
+.nav a{ /* floats the links to the right and defines their spacing */
+    text-decoration: none;
+    float: right;
+    margin-left: 20px;
+    margin-top: 43px;
+    color: #777777;
+    text-align: center;
+}
+a:hover{ /* when you hover over links, this makes them turn teal */
+    color:teal;
+}
+
+a:link{
+    color: #777777;
+    text-decoration: none; /*remove underlines from links in navbar */
+}
+
+.nav:after{ /* clears the float after nav div (navbar) */
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.main{ /* sets format for main div - primary "white page" section of each page */
+    width:960px;
+    height: 60%;
+    margin: 30px auto;
+    background: #ffffff;
+    padding: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #777777; 
+    position: relative;  
+}
+
+.main #pics{ /* specific styling for the body of portfolio section */
+    width: 960px;
+    height: 85%;
+    margin: 0 auto;
+    
+}
+
+h1#me{ /* floats my name in index to the left and styles it */
+    float: left;
+    padding-left: 30px;
+    color: #4aaaa5;
+    background-color: #ffffff;
+    margin-bottom: -7px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: -10px;
+}
+.div1:after{ /* clears float */
+    content: "";
+    display: block;
+    clear:both;
+}
+hr.aboutme{ /* styles horizontal rule after main div heading */
+    width: 97%;
+    height: 1px;
+    background-color: lightslategray;
+    color:lightslategray;
+}
+
+.main h1{ /* styles main div header */
+    padding-left: 2%;
+    color: #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+img#myface{ /*position of my picture on index.html */
+    float:left; 
+    margin: 10px;
+    height: 150px;
+    width: 200px;   
+}
+.wrap1{ /*putting the image and first paragraph on same float */
+    float: left;
+    inline-size: block;
+    display: inline;
+    
+}
+p{ /* spaces paragraph and aligns text in index.html paragraphs section */
+    line-height: 150%;
+    text-align: justify;    
+}
+
+.greenhr{ /* makes horizontal rule thicker and teal, using it for bottom of pages above footer */
+    height: 7px;
+    background-color: #4aaaa5;
+    margin-bottom: -2px;
+}
+
+.pics #hr1{ /* horizontal rule that goes under primary div h1 */
+    width: 97%;
+    height: 1px;
+    background-color: lightslategray;
+    color:lightslategray;
+}
+.main img{ /* sets size of pictures on portfolio page */
+    height: 125px;
+    width: 175px;
+    
+}
+#topright{ /*sets position of pictures on portfolio page */
+    position: absolute;
+    top: 25%;
+    right: 30%;
+    z-index: 0;
+}
+#topleft{ /*sets position of pictures on portfolio page */
+    position: absolute;
+    top: 25%;
+    left: 15%;
+    z-index: 0;
+}
+#midleft{ /*sets position of pictures on portfolio page */
+    position: absolute;
+    top: 50%;
+    left: 15%;
+    z-index: 0;
+}
+#midright{ /*sets position of pictures on portfolio page */
+    position: absolute;
+    top: 50%;
+    right: 30%;
+    z-index: 0;
+}
+#bottom{ /*sets position of pictures on portfolio page */
+    position: absolute;
+    top: 75%;
+    left: 15%;
+    z-index: 0;
+}
+
+
+
+form .msg{ /* making message box taller and wider */
+    height:150px;
+    width: 97%;
+}
+form .name, .email{ /* making input for name & email wider */
+    width: 97%;
+}
+
+.main form{ /* adding padding and increasing line height in form on contact page */
+    padding-left: 2%;
+    line-height: 150%;
+}
+.main #hr1{
+    width: 97%;
+    height: 1px;
+    background-color: lightslategray;
+    color:lightslategray;
+}
+form placeholder{
+    position: absolute;
+}
+.TL{
+    position: absolute;
+    top: 35%;
+    left: 15%;
+    z-index: 1;
+    background-color: #4aaaa5;
+    color:#ffffff;
+    padding: 5px;
+    width: 165px;
+    text-align: center;
+}
+.TR{
+    position: absolute;
+    top: 35%;
+    right: 30%;
+    z-index: 1;
+    background-color: #4aaaa5;
+    color:#ffffff;
+    padding: 5px;
+    width: 165px;
+    text-align: center;
+}
+
+.ML{
+    position: absolute;
+    top: 60%;
+    left: 15%;
+    z-index: 1;
+    background-color: #4aaaa5;
+    color:#ffffff;
+    padding: 5px;
+    width: 165px;
+    text-align: center;
+}
+
+.MR{
+    position: absolute;
+    top: 60%;
+    right: 30%;
+    z-index: 1;
+    background-color: #4aaaa5;
+    color:#ffffff;
+    padding: 5px;
+    width: 165px;
+    text-align: center;
+}
+
+.BTM{
+    position: absolute;
+    top: 85%;
+    left: 15%;
+    z-index: 1;
+    background-color: #4aaaa5;
+    color:#ffffff;
+    padding: 5px;
+    width: 165px;
+    text-align: center;
+}
+
+/* Media Queries */
+
+@media screen and (max-width: 640px){ /* Media query for phone landscape */
+
+
+
+}
+
+@media screen and (max-width: 768px){ /* Media query for tablet */
+
+    
+
+}
+
+@media screen and (max-width: 980px){ /* Media query for desktop */
+
+   
+}
+
+
+
+
+
