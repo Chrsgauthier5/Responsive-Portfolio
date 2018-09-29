@@ -222,11 +222,13 @@ body {
     display:block;
     width: 90%;
     margin: 0;
-    position: relative
+    position: static;
 }
-.work{
-    width: 100%;
+div.work{
+  display: block;
+  width: 100%;
 }
+
 .work h3{
     width: 90%;
     margin: auto;
@@ -270,7 +272,6 @@ nav a{
 .main-section {
     float: left;
     width: 80%;
-    
     padding: 30px;
     margin: 0 0 40px;
     background: #ffffff;
